@@ -6,11 +6,11 @@ import Home from "./routes/Home";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/:id"  element={<Detail/>}>
         </Route>
-        <Route exact path={process.env.PUBLIC_URL + "/"}  element={<Home/>}>
+        <Route exact path="/"  element={<Home/>}>
         </Route>
       </Routes>
     </Router>

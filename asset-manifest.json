@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/ReactPlatform/static/js/main.eb4ab691.chunk.js",
-    "main.js.map": "/ReactPlatform/static/js/main.eb4ab691.chunk.js.map",
+    "main.js": "/ReactPlatform/static/js/main.8b46d189.chunk.js",
+    "main.js.map": "/ReactPlatform/static/js/main.8b46d189.chunk.js.map",
     "runtime-main.js": "/ReactPlatform/static/js/runtime-main.f74e2102.js",
     "runtime-main.js.map": "/ReactPlatform/static/js/runtime-main.f74e2102.js.map",
-    "static/js/2.b8b681f6.chunk.js": "/ReactPlatform/static/js/2.b8b681f6.chunk.js",
-    "static/js/2.b8b681f6.chunk.js.map": "/ReactPlatform/static/js/2.b8b681f6.chunk.js.map",
+    "static/js/2.80b4b541.chunk.js": "/ReactPlatform/static/js/2.80b4b541.chunk.js",
+    "static/js/2.80b4b541.chunk.js.map": "/ReactPlatform/static/js/2.80b4b541.chunk.js.map",
     "index.html": "/ReactPlatform/index.html",
-    "static/js/2.b8b681f6.chunk.js.LICENSE.txt": "/ReactPlatform/static/js/2.b8b681f6.chunk.js.LICENSE.txt"
+    "static/js/2.80b4b541.chunk.js.LICENSE.txt": "/ReactPlatform/static/js/2.80b4b541.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f74e2102.js",
-    "static/js/2.b8b681f6.chunk.js",
-    "static/js/main.eb4ab691.chunk.js"
+    "static/js/2.80b4b541.chunk.js",
+    "static/js/main.8b46d189.chunk.js"
   ]
 }

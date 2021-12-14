@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    right: 0;
+    top: 0;
+    width: 55vw;
+    height: 100vh;
+    /* background-color: grey; */
+}
+
+.textBox {
+    height: 375px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.container img {
+    width: 250px;
+    height: 375px;
+    margin-right: 20px;
+    border: solid 1px grey;
+    display: flex;
+}
+
+.container p {
+    word-break: break-all;
+}
+
+.hidden {
+    display: hidden;
+}

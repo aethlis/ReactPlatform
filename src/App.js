@@ -1,16 +1,16 @@
 // import { useState } from "react";
 // import { useEffect } from "react/cjs/react.development";
-import {BrowserRouter as Router, Routes, Route,} from "react-router-dom";
-import Detail from "./routes/Detail";
-import Home from "./routes/Home";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import RenderingIndiv from "./routes/Detail";
+import CallingMovies from "./routes/Home";
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/:id"  element={<Detail/>}>
+        <Route path="/:id"  element={<RenderingIndiv/>}>
         </Route>
-        <Route path="/"  element={<Home/>}>
+        <Route path="/"  element={<CallingMovies/>}>
         </Route>
       </Routes>
     </Router>

@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom"
 import { useEffect } from "react"
 import { useState } from "react"
 
-function Detail() {
-    const [runtime, setRuntime] = useState("")
+function RenderingIndiv() {
+    const [runtime, setRuntime] = useState("");
     const [loading, setLoading] = useState(true);
     const [title, setTitle] = useState("");
     const [coverImg, setImg] = useState("");
@@ -16,12 +16,19 @@ function Detail() {
         setTitle(json.data.movie.title);
         setImg(json.data.movie.medium_cover_image);
         setSummary(json.data.movie.description_full);
-        setRuntime(json.data.movie.runtime)
+        setRuntime(json.data.movie.runtime);
         setLoading(false);
-    }
+    };
     useEffect(() => {
         getMovie();
-    })
+    });
+
+    return (
+        Detail(runtime, loading, title, coverImg, summary, id)
+    )
+}
+
+function Detail(runtime, loading, title, coverImg, summary, id) {
     return <h1>
         {loading ? ("Loading...")
          : (
@@ -39,4 +46,4 @@ function Detail() {
     </h1>
 };
 
-export default Detail;
+export default RenderingIndiv;
